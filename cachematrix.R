@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
   list(setMatrix = setMatrix, getMatrix = getMatrix, cacheInverse = cacheInverse, getInverse = getInverse)
 }
 
-## In case nothing has been changed, the inverse of the matrix is retrived from the chache
+## In case nothing has been changed, the inverse of the matrix is retrived from the chache.
 
 cacheSolve <- function(x, ...) {
    inverse <- x$getInverse()
